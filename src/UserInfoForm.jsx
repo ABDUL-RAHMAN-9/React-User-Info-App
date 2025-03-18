@@ -30,7 +30,7 @@ function UserInfoForm()
                 {/* Toggle for dark mode */}
                 <button
                     onClick={() => { setDarkMode((prev) => !prev) }}
-                    className='border p-3 cursor-pointer'>
+                    className='border p-3 cursor-pointer hover:rounded-xl'>
                     Toggle Dark Mode
                 </button>
 
@@ -41,7 +41,7 @@ function UserInfoForm()
                         value={name}
                         placeholder='Enter Name:'
                         onChange={(event) => setName(event.target.value)}
-                        className='border p-3 rounded ml-4'
+                        className='border p-3 rounded ml-4 w-90 hover:border-2'
                     />
                 </label>
 
@@ -52,7 +52,7 @@ function UserInfoForm()
                         value={favoriteColor}
                         placeholder='Enter you Favorite Color:'
                         onChange={(event) => setFavoriteColor(event.target.value)}
-                        className='border p-3 rounded ml-4'
+                        className='border p-3 rounded ml-4 w-90 hover:border-2'
                     />
                 </label>
 
@@ -62,7 +62,7 @@ function UserInfoForm()
                         value={age}
                         placeholder='Enter Name:'
                         onChange={(event) => setAge(event.target.value)}
-                        className='border p-3 rounded ml-4'
+                        className='border p-3 rounded ml-4 w-90 hover:border-2'
                     />
                 </label>
 
