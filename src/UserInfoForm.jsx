@@ -36,8 +36,7 @@ function UserInfoForm()
 
 
                 {/* Inupt for Name */}
-                <label className='text-xl'>
-                    Name:
+                <label className='text-xl'> 
                     <input type="text"
                         value={name}
                         placeholder='Enter Name:'
@@ -49,7 +48,6 @@ function UserInfoForm()
                 {/* Input for Favorite Color */}
 
                 <label className='text-xl'>
-                    Favorite Color:
                     <input type="text"
                         value={favoriteColor}
                         placeholder='Enter you Favorite Color:'
@@ -60,7 +58,6 @@ function UserInfoForm()
 
                 {/* Input for Age */}
                 <label className='text-xl'>
-                    Age:
                     <input type="number"
                         value={age}
                         placeholder='Enter Name:'
